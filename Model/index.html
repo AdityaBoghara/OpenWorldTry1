@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <title>Project</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+
+
+<body>
+    
+<a-scene>
+    <a-assets>
+        <img id="sky" src="./asserts/sky.jpg">
+
+        <a-asset-item id="village" src="./asserts/scene.gltf">
+    </a-assets> 
+
+    <a-sky src="#sky"></a-sky>
+
+    <a-entity gltf-model="#village"></a-entity>
+
+</a-scene>
+
+</body>
+
+</html>
